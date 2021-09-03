@@ -1,0 +1,30 @@
+:root {
+  --primaryWhite: #fff;
+  --primaryOrange: #f9ab00;
+  --primaryDark: rgba(255, 255, 255, 0);
+}
+
+/* LINKS */
+.nav a.nav-link {
+  letter-spacing: 0.6rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  border-top: 0.1875rem solid var(--primaryDark);
+  color: var(--primaryWhite) !important;
+}
+
+.navbar-nav > li > a:focus {
+  border-top: 0.185rem solid var(--primaryOrange);
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.185rem solid var(--primaryOrange);
+}
